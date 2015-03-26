@@ -10,7 +10,7 @@ while  true do
 	if guesses == 0
 	puts "sorry you have used all your guesses. The answer was #{answer}"
 	
-end
+	end
 
 	guesses > 0
 	if number == answer
@@ -22,7 +22,7 @@ end
   	puts "Nope that's  not the number. Go higher"
   	guesses -= 1
     end  	
-  end
+end
 end
 
 
